@@ -1,0 +1,24 @@
+#infotable {
+  width: calc(50% - 40px);
+  height: 450px;
+  float: left;
+}
+
+#gmaps {
+  border: 0;
+  margin: 10px;
+  width: calc(50% - 40px);
+  height: 450px;
+  float: right;
+}
+
+@media screen and (max-width: 650px) {
+  #infotable, #gmaps {
+    width: calc(100% - 20px);
+    float: center;
+  }
+
+  #infotable {
+    height: auto;
+  }
+}
