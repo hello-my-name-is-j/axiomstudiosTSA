@@ -107,6 +107,13 @@ li a {
   color: rgb(180, 180, 180);
 }
 
+#footer {
+  background-color: rgb(50, 50, 50);
+  list-style-type: none;
+  margin: 0;
+  padding: 50px, 30px;
+}
+
 @media screen and (max-width: 650px) {
   ul.navbar li {
     float: none;
