@@ -112,13 +112,11 @@ footer {
   list-style-type: none;
   margin: 0;
   padding: 50px, 30px;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
 
 .main-container {
-  position: relative;
   min-height: 100vh;
 }
 
