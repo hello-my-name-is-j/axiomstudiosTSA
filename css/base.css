@@ -79,11 +79,11 @@ ul {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-li {
+.navbar li {
   float: left;
 }
 
-li a {
+.navbar li a {
   font-family: 'Montserrat', sans-serif;
   display: block;
   color: rgb(255, 255, 255);
