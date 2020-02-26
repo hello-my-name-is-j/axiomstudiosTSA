@@ -114,10 +114,12 @@ footer {
   padding: 50px, 30px;
   bottom: 0;
   width: 100%;
+  position: absolute;
 }
 
 .main-container {
   min-height: 100vh;
+  position: relative;
 }
 
 a {
