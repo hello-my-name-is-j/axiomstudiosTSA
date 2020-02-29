@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-button#shopb {
+button#shopb, button#parallelb {
   background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   border: 3px solid rgb(255, 255, 255);
@@ -32,7 +32,7 @@ button#shopb {
   display: inline-block;
   }
 
-button:hover#shopb {
+button:hover#shopb, button:hover#parallelb {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
@@ -61,12 +61,24 @@ a#learnl:hover {
   margin: 0;
   }
 
-  #cubead-text {
+#cubead-text {
     position: absolute;
     top: calc(50vh + 88px);
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  
+#parallelad-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.parallel-container {
+  position: relative;
+  text-align: center;
+}
 
   #img2 {
   height: 50vh;
